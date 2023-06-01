@@ -18,7 +18,7 @@
 
 [license]:          https://github.com/Saltssaumure/w9x-discord-theme/blob/main/LICENSE
 [issues]:           https://github.com/Saltssaumure/w9x-discord-theme/issues
-[.theme.css]:       https://github.com/Saltssaumure/w9x-discord-theme/blob/main/NineX.theme.css
+[.theme.css]:       https://github.com/auumi/auumi.github.io/blob/main/NineX.theme.css
 
 [release-gh]:       https://github.com/Saltssaumure/w9x-discord-theme/releases/latest "Latest release"
 [release-bd]:       https://betterdiscord.app/theme/?id=823 "BetterDiscord store page"
