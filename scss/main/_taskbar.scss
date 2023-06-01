@@ -1,0 +1,96 @@
+@use "../top/vars-scss" as *;
+@use "../top/boxes" as boxes;
+@use "../top/folderIcon" as fi;
+
+:root {
+    --HSL-server-icon-size: 36px;
+    --HSL-server-spacing: 6px;
+    --HSL-server-direction: column;
+    --HSL-server-alignment: flex-start;
+    --server-container: calc(var(--server-size) + 10px);
+}
+
+// Taskbar
+.wrapper-1_HaEi .scroller-3X7KbA {
+    @include boxes.box;
+    background: var(--background-secondary);
+    border-color: $white $white $black $black;
+
+    &::before {
+        border-color: $lightgrey $lightgrey $darkgrey $darkgrey;
+    }
+
+    &,
+    &::before {
+        border-bottom: 0;
+    }
+}
+
+// Folder/server icon
+.listItem-3SmSlK:not(:has(.guildSeparator-a4uisj)) {
+    @include boxes.clickable;
+}
+
+// Closed folder icon
+@include fi.folderIcon;
+.expandedFolderBackground-1kSAf6.collapsed-uGXEbi + .listItem-3SmSlK {
+    .guildIcon-2I5sfu {
+        display: none;
+    }
+}
+
+// Opened folder background strip
+.expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi) {
+    background: transparent;
+}
+
+.folder-241Joy {
+    .icon-1zKOXL,
+    svg {
+        display: none;
+    }
+}
+
+// Control panel
+.panels-3wFtMD {
+    @include boxes.box;
+    position: fixed;
+    bottom: 0;
+    left: calc(100vw - $panel-width);
+    width: $panel-width;
+    height: 44px;
+    z-index: 0;
+
+    &:hover {
+        z-index: 2;
+    }
+}
+
+// Flip order
+.container-YkUktl {
+    height: calc(var(--server-container) - 2px);
+    flex-direction: row-reverse;
+    gap: 6px;
+}
+
+// Controls
+.button-12Fmur {
+    @include boxes.clickable;
+
+    &.enabled-9OeuTA:hover,
+    &:active {
+        background: inherit;
+        color: inherit;
+    }
+}
+
+// User
+.avatarWrapper-1B9FTW {
+    @include boxes.inset;
+    margin-right: 0;
+}
+.withTagAsButton-OsgQ9L:hover,
+.withTagless-10ooWt:hover {
+    background: inherit;
+    color: inherit;
+}
