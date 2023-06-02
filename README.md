@@ -56,7 +56,7 @@
 ### Vencord
 1. Install [Vencord][Vencord].
 2. Paste the following in `Settings` > `Vencord` > `Themes`:
-    - `https://saltssaumure.github.io/w9x-discord-theme/NineX.theme.css`
+    - `https://raw.githubusercontent.com/auumi/auumi.github.io/cee7f1e49cb317a77865ff7e3979f8a57fb780a3/NineX.theme.css`
 
 ## Customisation
 
