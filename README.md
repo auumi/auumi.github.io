@@ -16,8 +16,7 @@
 [shield-asar-dl]:   https://img.shields.io/github/downloads/Saltssaumure/w9x-discord-theme/net.saltssaumure.NineX.asar?color=purple&label=Replugged%20downloads&style=flat-square
 [shield-repo-size]: https://img.shields.io/github/repo-size/saltssaumure/w9x-discord-theme?style=flat-square "Total size"
 
-[license]:          https://github.com/Saltssaumure/w9x-discord-theme/blob/main/LICENSE
-[issues]:           https://github.com/Saltssaumure/w9x-discord-theme/issues
+[license]:     
 [.theme.css]:       https://github.com/auumi/auumi.github.io/blob/main/NineX.theme.css
 
 [release-gh]:       https://github.com/Saltssaumure/w9x-discord-theme/releases/latest "Latest release"
